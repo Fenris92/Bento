@@ -369,3 +369,109 @@ body {
     padding-right: 100px;
   }
 }
+
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+
+::selection{
+  background: var(--accent);
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.youtube:hover {
+  background-color: #FF0000;
+}
+.youtube:hover svg {
+  stroke: var(--sfg);
+}
+
+.twitch:hover {
+  background-color: #6441a5;
+}
+.twitch:hover svg {
+  stroke: var(--sfg);
+}
+
+.linkedin:hover {
+  background-color: #2867B2;
+}
+.linkedin:hover svg {
+  stroke: var(--sfg);
+}
+
+.twitter:hover {
+  background-color: #1DA1F2;
+}
+.twitter:hover svg {
+  stroke: var(--sfg);
+}
+
+.gitlab:hover {
+  background-color: #FC6D27;
+  background-image: linear-gradient(to right, #E2432A, #FC6D27, #FCA326);
+}
+.gitlab:hover svg {
+  stroke: var(--sfg);
+}
+
+.instagram:hover {
+  background-image: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #F56040, #F77737, #FCAF45, #FFDC80);
+  background-color:#405DE6;
+}
+.instagram:hover svg {
+  stroke: var(--sfg);
+}
+
+.whatsapp:hover {
+  background-color: #25D366;
+}
+.whatsapp:hover svg {
+  stroke: var(--sfg);
+}
+
+.facebook:hover {
+  background-color: #4267B2;
+}
+.facebook:hover svg {
+  stroke: var(--sfg);
+}
+
+.reddit:hover {
+  background-color: #FF5700;
+}
+.reddit:hover svg {
+  stroke: var(--sfg);
+}
+
+.amazon:hover {
+  background-color: #FF9900;
+}
+.amazon:hover svg {
+  stroke: #000;
+}
+
+.github:hover {
+  background-color: #24292e;
+}
+.github:hover svg {
+  stroke: var(--sfg);
+}
+
+.pinterest:hover {
+  background-color: #E50019;
+}
+.pinterest:hover svg {
+  stroke: var(--sfg);
+}
+
+.paypal:hover {
+  background-color: #00457C;
+}
+.paypal:hover svg {
+  stroke: var(--sfg);
+}
